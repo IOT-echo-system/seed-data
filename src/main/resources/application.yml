@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URL}/master-data
+  application:
+    name: SEED-DATA

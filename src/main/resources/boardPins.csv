@@ -1,0 +1,33 @@
+boardName,version,name,pinNumber,description,pinType
+ESP32-WROOM-32E,0.0.1,GPIO0,0,"Used for boot mode, cannot be used for normal GPIO",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO1/TX,1,"Used for UART TX reserved for Serial communication",INPUT_OUTPUT|PWM|UART
+ESP32-WROOM-32E,0.0.1,GPIO2,2,"General-purpose GPIO pin",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO3/RX,3,"Used for UART RX reserved for Serial communication",INPUT_OUTPUT|PWM|UART
+ESP32-WROOM-32E,0.0.1,GPIO4,4,"General-purpose GPIO pin",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO5,5,"General-purpose GPIO pin",INPUT_OUTPUT|PWM|SPI
+ESP32-WROOM-32E,0.0.1,GPIO6,6,"Reserve pin for internal flash",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO7,7,"Reserve pin for internal flash",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO8,8,"Reserve pin for internal flash",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO9,9,"Reserve pin for internal flash",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO10,10,"Reserve pin for internal flash",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO11,11,"Reserve pin for internal flash",RESERVED
+ESP32-WROOM-32E,0.0.1,GPIO12,12,"General-purpose GPIO pin can be used for PWM or other functions",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO13,13,"General-purpose GPIO pin can be used for PWM or other functions",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO14,14,"General-purpose GPIO pin can be used for PWM",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO15,15,"General-purpose GPIO pin can be used for PWM or other functions",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO16,16,"General-purpose GPIO pin",INPUT_OUTPUT|PWM
+ESP32-WROOM-32E,0.0.1,GPIO17,17,"General-purpose GPIO pin",INPUT_OUTPUT|PWM
+ESP32-WROOM-32E,0.0.1,GPIO18,18,"Can be used for PWM or SPI",INPUT_OUTPUT|PWM|SPI
+ESP32-WROOM-32E,0.0.1,GPIO19,19,"Can be used for PWM or SPI",INPUT_OUTPUT|PWM|SPI
+ESP32-WROOM-32E,0.0.1,GPIO21/SDA,21,"I2C Data SDA",INPUT_OUTPUT|PWM|I2C
+ESP32-WROOM-32E,0.0.1,GPIO22/SCL,22,"I2C Clock SCL",INPUT_OUTPUT|PWM|I2C
+ESP32-WROOM-32E,0.0.1,GPIO23,23,Can be used for PWM or SPI,INPUT_OUTPUT|PWM|SPI
+ESP32-WROOM-32E,0.0.1,GPIO25,25,"General-purpose GPIO pin used for PWM ADC etc.",INPUT_OUTPUT|ADC|DAC|PWM
+ESP32-WROOM-32E,0.0.1,GPIO26,26,"General-purpose GPIO pin used for PWM ADC etc.",INPUT_OUTPUT|ADC|DAC|PWM
+ESP32-WROOM-32E,0.0.1,GPIO27,27,"General-purpose GPIO pin used for PWM ADC etc.",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO32,32,"Analog input can be used for ADC or general-purpose GPIO",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO33,33,"Analog input can be used for ADC or general-purpose GPIO",INPUT_OUTPUT|PWM|ADC
+ESP32-WROOM-32E,0.0.1,GPIO34,34,"Analog input no pull-up or pull-down capability",INPUT_ONLY|ADC
+ESP32-WROOM-32E,0.0.1,GPIO35,35,"Analog input can be used for ADC or general-purpose GPIO",INPUT_ONLY|ADC
+ESP32-WROOM-32E,0.0.1,GPIO36 VP,36,"Analog input can be used for ADC or general-purpose GPIO",INPUT_ONLY|ADC
+ESP32-WROOM-32E,0.0.1,GPIO39 VN,39,"Analog input can be used for ADC or general-purpose GPIO",INPUT_ONLY|ADC
